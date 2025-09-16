@@ -23,7 +23,7 @@ class SpiderAim(Enum):
     search_weibo = request_builder.SearchWeiboReqBuilder
     search_users = request_builder.SearchUsersReqBuilder
 
-
+ 
 # AsyncHTTPClient.configure("tornado.curl_httpclient.CurlAsyncHTTPClient")
 
 @gen.coroutine
